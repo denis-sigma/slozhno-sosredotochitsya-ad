@@ -2,4 +2,85 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--main-gap);
+}
+
+.header__theme-menu-button {
+  position: relative;
+  display: block;
+  border: 1px solid transparent;
+  padding: 2px 13px 4px;
+  color: var(--nav-color);
+  line-height: 1;
+  text-transform: lowercase;
+  cursor: pointer;
+  appearance: none;
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible::after {
+  content: '';
+  position: absolute;
+  inline-size: 100%;
+  block-size: 1px;
+  background-color: var(--nav-color);
+  inset-block-end: -2px;
+  inset-block-start: 0;
+}
+
+.header__theme-menu-button:hover {
+  --nav-hover-color: rgb(255 0 112 / 0.4);
+  border:1px solid var(--nav-hover-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--nav-color);
+  pointer-events: none;
+}
+
+.header__logo {
+  justify-content: start;
+  color: var(--header-logo-size);
+  line-height: 0.825;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.content__link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+@media (width >= 1024px) {
+  .header {
+    min-block-size: 640px;
+  }
+
+  .header__theme-menu {
+    justify-self: center;
+    align-self: start;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+  }
+
+  .content-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width >= 768px) {
+  
 }
