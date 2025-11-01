@@ -1,5 +1,12 @@
 .theme-light .page {
-  --bg-color: #fff;
+  --bg-color:#fff;
+  --color-paragraph-text: rgba(53, 52, 48, 1);
+  --bg-image-header:url(../images/cover-image-light.png);
+  --color-title-header:rgba(255, 194, 230, 1);
+  --color-text:rgba(53, 52, 48, 1);
+  --bg-color-title-paragraph:rgba(255, 141, 203, 1);
+  --color-title: rgba(53, 52, 48, 1);
+  --btn-hover:rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .page .rec {
