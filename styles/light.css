@@ -1,16 +1,17 @@
 .theme-light .page {
-  --title-color: #ffc2e6;
-  --text-color: #353430;
-  --sub-text-color: #353430;
+  --main-text-color: #353430;
+  --heading-color: #353430;
+  --background-color: #fff1f7;
+  --accent-heading-color: #353430;
+  --decorative-elements: #353430;
   --accent-color: #ff8dcb;
-  --btn-color:#353430;
-  --backgroung-image: url(../images/cover-image-light.png);
+  --header-menu-hover-color: rgb(50 49 45 / 0.4);
 }
 
-.theme-light .decorative__element {
+.theme-light .page .header__decorated-element {
   display: none;
 }
 
-.theme_light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.4);
+.theme-light .page .decorated-heading {
+  color: #ffc2e6;
 }

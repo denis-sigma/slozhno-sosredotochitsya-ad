@@ -1,10 +1,9 @@
 :root {
-  --title-color: #db00ff;
-  --text-color: #f1b2ce;
-  --sub-text-color: #000028;
+  --main-text-color: #f1b2ce;
+  --background-color: #000028;
+  --heading-color: #ff0070;
+  --accent-heading-color: #000028;
+  --decorative-elements: #ff0070;
   --accent-color: #ff0070;
-  --font: 'IBM Plex mono';
-  --font-size: 18px;
-  --btn-color:#ff0070;
-  --backgroung-image: url(../images/cover-image-dark.png);
+  --header-menu-hover-color: rgb(255 0 112 / 0.4);
 }
