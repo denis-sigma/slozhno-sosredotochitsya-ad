@@ -11,7 +11,7 @@
 }
 
 .header {
-  min-block-size: 103vh;
+  min-block-size: 100vh;
   padding: 20px;
   display: grid;
   position: relative;
@@ -103,7 +103,7 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-color);
   font-weight: 700;
-  line-height: 83%;
+  line-height: 82.5%;
 }
 
 .title-decor {
@@ -254,7 +254,7 @@
 }
 
 .footer {
-  min-block-size: 104vh;
+  min-block-size: 100vh;
   padding: 20px;
   position: relative;
   display: flex;
@@ -267,7 +267,7 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   color: var(--title-color);
   font-weight: 700;
-  line-height: 83%;
+  line-height: 82.5%;
   
 }
 
