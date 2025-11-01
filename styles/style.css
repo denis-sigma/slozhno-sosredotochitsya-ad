@@ -1,5 +1,6 @@
 .page {
   background-color: var(--bg-color);
+  background-attachment: fixed;
 }
 
 .header__theme-menu-button {
@@ -59,6 +60,8 @@
   display: flex;
   flex-direction: column;
   background-image: var(--bg-image-header);
+  height: 100vh;
+  width: 100%;
 }
 
 .header__theme-menu-list {
@@ -186,7 +189,8 @@
 }
 
 .footer {
-  padding: 300px;
+  height: 100vh;           /* 100% высоты окна */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
