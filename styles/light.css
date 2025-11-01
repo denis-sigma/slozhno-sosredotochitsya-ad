@@ -12,7 +12,7 @@
 }
 
 .theme-light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  border: 1px solid rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,12 +24,13 @@
     --btn-color:#353430;
     --backgroung-image: url(../images/cover-image-light.png);
   }
+  
   .decorative__element {
     display: none;
   }
   
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
+    border: 1px solid rgba(50, 49, 45, 0.4);
   }
 }  
 
@@ -38,6 +39,7 @@
   .header__title {
     text-shadow: 4px 4px 0 #FF0070;
   }
+  
   .footer__title {
     text-shadow: 4px 4px 0 #FF0070;
   }
