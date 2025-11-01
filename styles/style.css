@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   margin-inline: auto;
   color: var(--text-color);
@@ -21,8 +19,8 @@
 
 .header__theme-menu {
   display: inline;
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   justify-self: end;
   align-self: center;
 }
@@ -52,8 +50,8 @@
 }
 
 .header__subtitle {
-  grid-column: 1/2;
-  grid-row: 3/4;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
   justify-self: end;
   align-self: center;
   margin: 0px;
@@ -82,24 +80,24 @@
 
 .decorated-zone::before {
   content: "";
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   justify-self: end;
   border-inline-end: 1px var(--accent-color-btn) solid;
   border-block-start: 1px var(--accent-color-btn) solid;
   inline-size: 25px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 
 .decorated-zone::after {
   content: "";
-  grid-column: 1/2;
-  grid-row: 3/4;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
   align-self: end;
   border-inline-start: 1px var(--accent-color-btn) solid;
   border-block-end: 1px var(--accent-color-btn) solid;
   inline-size: 25px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 
 .header__decor {
@@ -125,7 +123,7 @@
   box-shadow: 0px 0px 4px 2px var(--accent-color-btn);
   background-color: var(--accent-color-btn);
   inline-size: 9px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 
 @media (min-width: 768px) {
