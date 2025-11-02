@@ -4,7 +4,7 @@
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 23.4px;
-  background-image: var(--backgroung-image);
+  background-image: var(--background-image);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -273,7 +273,7 @@
 }
 
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
@@ -292,7 +292,7 @@
   }
 
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .question__section__one {
@@ -411,4 +411,3 @@
     margin: 10px;
   }
 }
-
